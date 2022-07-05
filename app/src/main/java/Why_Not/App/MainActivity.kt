@@ -36,6 +36,10 @@ class MainActivity : AppCompatActivity(){
                     replaceFragment(Fragment_Review)
                     //Toast.makeText(this,"개빡치네3",Toast.LENGTH_SHORT).show()
                 }
+                R.id.fourth -> {
+                    replaceFragment(Fragment_Review)
+                    //Toast.makeText(this,"개빡치네3",Toast.LENGTH_SHORT).show()
+                }
             }
             true
         }
